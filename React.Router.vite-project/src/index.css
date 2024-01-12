@@ -37,6 +37,30 @@
   }
 
   .home {
-    background-color: pink;
+    background-color: darkgrey;
     color: white;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .magenta {
+    background-color: magenta;
+  }
+
+  .orange {
+    background-color: orange;
+  }
+
+  .pink {
+    background-color: pink;
+  }
+
+  .violet {
+    background-color: violet;
+  }
+
+  .home {
+    color: darkgray
   }
