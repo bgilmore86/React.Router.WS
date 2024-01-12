@@ -36,32 +36,37 @@ body > div {
   color: white;
 }
 
-  .home {
+.home {
     background-color: darkgrey;
     color: white;
   }
 
-  .green {
+.green {
     background-color: green;
     color: white;
   }
 
-  .magenta {
+.magenta {
     background-color: magenta;
     color: white;
   }
 
-  .orange {
+.orange {
     background-color: orange;
     color: white;
   }
 
-  .pink {
+.pink {
     background-color: pink;
     color: white;
   }
 
-  .violet {
+.violet {
     background-color: violet;
     color: white;
   }
+
+.black {
+  background-color: black;
+  color: white;
+}

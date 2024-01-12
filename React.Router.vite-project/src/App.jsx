@@ -1,24 +1,20 @@
+import React from "react";
 import './App.css'
-import './index.css'   
 import { Routes, Route, Link } from "react-router-dom"
-
-//import {} from "./components/red"
-//import {} from "./components/blue"
-//import {} from "./components/green"
-//import {} from "./components/home"
-//import {} from "./components/magenta"
-//import {} from "./components/orange"
-//import {} from "./components/pink"
-//import {} from "./components/violet"
-
-import {Red} from './components'
-
-
+import Home from "./components/Home"
+import Blue from "./components/Blue"
+import Red from "./components/Red"
+import Green from "./components/Green"
+import Magenta from "./components/Magenta"
+import Orange from "./components/Orange"
+import Pink from "./components/Pink"
+import Violet from "./components/Violet"
+import Black from "./components/Black"
 
 
 
 function App() {
-console.log(Red);
+
 return (
   <div id="container">
 
@@ -31,19 +27,21 @@ return (
       <Link to="/orange">Orange</Link>
       <Link to="/pink">Pink</Link>
       <Link to="/violet">Violet</Link>
+      <Link to="/black">Black</Link>
 
     </div>    
     
     <div id="main-section">
       <Routes>
-        <Route path="/" element={<h1>Home</h1>}/>
-        <Route path="/blue" element={<h1>Blue</h1>}/>
-        <Route path="/red" element={<h1>Red</h1>}/>
-        <Route path="/green" element={<h1>Green</h1>}/>
-        <Route path="/magenta" element={<h1>Magenta</h1>}/>
-        <Route path="/orange" element={<h1>Orange</h1>}/>
-        <Route path="/pink" element={<h1>Pink</h1>}/>
-        <Route path="/violet" element={<h1>Violet</h1>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/blue" element={<Blue/>}/>
+        <Route path="/red" element={<Red/>}/>
+        <Route path="/green" element={<Green/>}/>
+        <Route path="/magenta" element={<Magenta/>}/>
+        <Route path="/orange" element={<Orange/>}/>
+        <Route path="/pink" element={<Pink/>}/>
+        <Route path="/violet" element={<Violet/>}/>
+        <Route path="/black" element={<Black/>}/>
       </Routes>
     </div>
 
